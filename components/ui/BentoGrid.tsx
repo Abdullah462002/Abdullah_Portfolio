@@ -1,4 +1,3 @@
-'use client';
 
 import { cn } from '@/utils/cn';
 import { BackgroundGradientAnimation } from './GradientBg';
@@ -48,9 +47,20 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const leftLists = ['SpringBoot', 'Java', 'Spring'];
+  const rightLists = ['PrimeFaces', 'Mysql', 'Jasper'];
   const [copied, setCopied] = useState(false);
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
   const handleCopy = () => {
-    navigator.clipboard.writeText('abdul95972@gmail.com');
+    const text = 'abdul95972@gmail.com';
+    navigator.clipboard.writeText(text);
     setCopied(true);
   };
   return (
@@ -87,7 +97,9 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          <BackgroundGradientAnimation></BackgroundGradientAnimation>
+          <BackgroundGradientAnimation>
+            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+          </BackgroundGradientAnimation>
         )}
         <div
           className={cn(
@@ -106,9 +118,9 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['SpringBoot', 'Java', 'Spring'].map((item) => (
+                {leftLists.map((item, i) => (
                   <span
-                    key={item}
+                    key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
@@ -125,9 +137,9 @@ export const BentoGridItem = ({
                   className="py-4 px-3 rounded-lg
                 text-center bg-[#10132E]"
                 ></span>
-                {['PrimeFaces', 'Mysql', 'Jasper'].map((item) => (
+                {rightLists.map((item, i) => (
                   <span
-                    key={item}
+                    key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
@@ -139,17 +151,12 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
-                <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: 'xMidYMid slice',
-                    },
-                  }}
-                />
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? 'block' : 'block'
+                }`}
+              >
+                <Lottie options={defaultOptions} height={200} width={400} />
               </div>
               <ShimerButton
                 title={copied ? 'Email Copied' : 'Copy My Email'}

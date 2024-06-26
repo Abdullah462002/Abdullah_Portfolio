@@ -49,7 +49,7 @@ const Hero = () => {
             className="text-center md:tracking-wider
           mb-4 text-sm md:text-lg lg:text-2xl"
           >
-            Hi I'm Abdullah, a Java Developer based in India.
+            Hi I&apos;m Abdullah, a Java Developer based in India.
           </p>
           <a
             href="https://drive.usercontent.google.com/u/0/uc?id=1PdoC2N7ymvNO36p03MQtsOMje8XVbjZY&export=download"
