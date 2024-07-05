@@ -8,7 +8,8 @@ const Skills = () => {
       id="skills"
     >
       <h1 className="heading">
-        Let Me Show You What I'm <span className="text-purple">Great At</span>
+        Let Me Show You What I&apos;m{' '}
+        <span className="text-purple">Great At</span>
       </h1>
       <div className="flex flex-col mt-10">
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 mt-10">
