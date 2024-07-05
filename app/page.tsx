@@ -7,6 +7,7 @@ import { navItems } from '@/data';
 import Experience from '@/components/Experience';
 import Approach from '@/components/Approach';
 import Footer from '@/components/Footer';
+import Skills from '@/components/Skills';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <Skills/>
         <Experience />
         <Approach />
         <Footer />

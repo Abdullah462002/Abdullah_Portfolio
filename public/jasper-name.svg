@@ -1,0 +1,16 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .jasper-text {
+      font-family: 'Nunito Sans', Arial, sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .white-fill {
+      fill: #ffffff;
+    }
+    .blue-fill {
+      fill: #1a9bdb;
+    }
+  </style>
+  <text x="1" y="40" class="jasper-text white-fill">Jasper<tspan class="blue-fill">Reports</tspan></text>
+</svg>

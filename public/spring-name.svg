@@ -1,0 +1,11 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .spring-text {
+      font-family: 'Nunito Sans', Arial, sans-serif;
+      font-size: 48px;
+      fill: #6DB33F;
+      font-weight: bold;
+    }
+  </style>
+  <text x="10" y="45" class="spring-text">Spring</text>
+</svg>
