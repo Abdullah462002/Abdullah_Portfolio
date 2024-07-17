@@ -33,8 +33,6 @@ export const PinContainer = ({
         'relative group/pin z-50  cursor-pointer',
         containerClassName
       )}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
     >
       <div
         style={{
@@ -52,7 +50,6 @@ export const PinContainer = ({
           <div className={cn(' relative z-50 ', className)}>{children}</div>
         </div>
       </div>
-      <PinPerspective title={title} href={href} />
     </div>
   );
 };

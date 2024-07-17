@@ -19,17 +19,21 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] h-[30vh] w-[80vw] overflow-hidden  mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                <img
+                  src={img}
+                  alt={title}
+                  className="z-10 absolute bottom-0 w-full h-full"
+                />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
-              <p className="lg:text-xl lg:font-light text-sm line-clamp-2">
+              <p className="lg:text-xl lg:font-light text-sm line-clamp-3">
                 {des}
               </p>
               <div className="flex items-center justify-between mt-7 mb-3">
@@ -45,9 +49,13 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a
+                    href={link}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
                     Check Live Site
-                  </p>
+                  </a>
                   <FaLocationArrow className="ms-2" color="#CBACF9" />
                 </div>
               </div>
