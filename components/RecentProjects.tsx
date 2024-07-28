@@ -54,7 +54,7 @@ const RecentProjects = () => {
                     target="_blank"
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
-                    Check Live Site
+                    Source Code
                   </a>
                   <FaLocationArrow className="ms-2" color="#CBACF9" />
                 </div>

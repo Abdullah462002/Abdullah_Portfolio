@@ -97,7 +97,7 @@ export const projects = [
       '/jsp-logo.svg',
       '/mysql.svg',
     ],
-    link: 'https://github.com/Abdullah462002/',
+    link: 'https://github.com/Abdullah462002/FlightTicketBooking.git',
   },
 ];
 
