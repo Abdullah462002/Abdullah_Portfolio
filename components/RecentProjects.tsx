@@ -8,7 +8,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A Small Section of <span className="text-purple">prevoius Works</span>
+        A Small Section of <span className="text-purple">Prevoius Works</span>
       </h1>
       <div
         className="flex flex-wrap items-center 
@@ -27,7 +27,7 @@ const RecentProjects = () => {
                 <img
                   src={img}
                   alt={title}
-                  className="z-10 absolute bottom-0 w-full h-full"
+                  className="z-10 absolute bottom-0 rounded-2xl w-full h-full"
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

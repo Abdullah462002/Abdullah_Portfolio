@@ -39,11 +39,11 @@ const Hero = () => {
             className="uppercase tracking-widest text-xs
              text-center text-blue-100 max-w-80"
           >
-            Do Some Magic With Me!
+            Quality is not an act, it is a habit. <br />- Aristotle
           </p>
           <TextGenerateEffect
             className="text-center text-[40px] lg:text-5xl md:text-6xl"
-            words="Transforming Complex Requirements into Smooth Solutions"
+            words="Building Tomorrow's Solutions Today"
           />
           <p
             className="text-center md:tracking-wider

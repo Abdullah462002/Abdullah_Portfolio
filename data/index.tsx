@@ -8,17 +8,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: 'I prioritize client collaboration, fostering open communication ',
+    title: 'I prioritize effective teamwork and open communication ',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
     titleClassName: 'justify-end',
-    img: '/b1.svg',
+    img: '/bg1.jpg',
     spareImg: '',
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: 'Flexible with time zones to ensure seamless collaboration ',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -75,7 +75,7 @@ export const projects = [
     id: 1,
     title: 'Pharma Assistant',
     des: 'This product is a Medical Store Assistant that enables medical store personnel to efficiently add, update and delete medicine details in the system',
-    img: '/pharma-project.jpg',
+    img: '/pharma.png',
     iconLists: [
       '/java-logo.svg',
       '/jsp-logo.svg',
@@ -87,44 +87,17 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone',
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+    title: 'Flight Ticket Booking',
+    des: 'It manages customer and flight data, allowing Admins and Users to register, update, book, and cancel flights. It streamlines air ticket reservations and customer management.',
+    img: '/flightTicket.jpg',
+    iconLists: [
+      '/java-logo.svg',
+      '/springboot-logo.svg',
+      '/bootstrap-logo.svg',
+      '/jsp-logo.svg',
+      '/mysql.svg',
+    ],
+    link: 'https://github.com/Abdullah462002/',
   },
 ];
 
@@ -229,28 +202,6 @@ export const companies = [
     img: '/restapi-logo.svg',
     nameImg: '/restapi-name.svg',
   },
-  {
-    id: 18,
-    name: 'PostMan API',
-    nameImg: '/postman.svg',
-  },
-  {
-    id: 19,
-    name: 'Maven',
-    nameImg: '/maven.svg',
-  },
-  {
-    id: 20,
-    name: 'Tomcat',
-    img: '/tomcat-logo.svg',
-    nameImg: '/tomcat-name.svg',
-  },
-  {
-    id: 21,
-    name: 'Linux',
-    img: '/linux-logo.svg',
-    nameImg: '/linux-name.svg',
-  },
 ];
 
 export const workExperience = [
@@ -268,20 +219,6 @@ export const workExperience = [
     className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
   },
-  // {
-  //   id: 3,
-  //   title: 'Freelance App Dev Project',
-  //   desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
-  //   className: 'md:col-span-2',
-  //   thumbnail: '/exp3.svg',
-  // },
-  // {
-  //   id: 4,
-  //   title: 'Lead Frontend Developer',
-  //   desc: 'Developed and maintained user-facing features using modern frontend technologies.',
-  //   className: 'md:col-span-2',
-  //   thumbnail: '/exp4.svg',
-  // },
 ];
 
 export const socialMedia = [
