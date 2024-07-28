@@ -8,11 +8,11 @@ const Footer = () => {
     <footer className="w-full pt-20 mb-[100px] md:mb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:9-w-[45vw]">
-          Ready to <span className="text-purple">finish your</span> Works
+          Let&apos;s <span className="text-purple">collaborate</span> for
+          success
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how i can help you to
-          achieve your goal.
+          Reach out to discuss how I can contribute to your plans.
         </p>
         <a href="mailto:abdul95972@gmail.com">
           <ShimerButton
