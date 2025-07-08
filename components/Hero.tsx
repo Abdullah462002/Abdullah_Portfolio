@@ -52,7 +52,7 @@ const Hero = () => {
             Hi I&apos;m Abdullah, a Java Developer based in India.
           </p>
           <a
-            href="https://drive.usercontent.google.com/u/0/uc?id=1PdoC2N7ymvNO36p03MQtsOMje8XVbjZY&export=download"
+            href="https://drive.usercontent.google.com/u/0/uc?id=1Njf8dPh-DI85N_seCASwe2ZXKWRWEekV&export=download"
             download
           >
             <ShimerButton
